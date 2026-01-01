@@ -21,6 +21,13 @@ automatically.
 
 ------------------------------------------------------------------------
 
+## Installing
+
+```bash
+brew tap pedrolopes/toolsew install pptx-export-slides
+
+--```----------------------------------------------------------------------
+
 ## Basic Usage
 
 ``` bash
