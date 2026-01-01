@@ -19,16 +19,15 @@ brew tap pedrolopes/tools
 install pptx-export-slides
 brew install --cask libreoffice
 ```
-**Automatic: using ``install.sh``
+
+**Automatic: using ``install.sh``**
 ```bash
 git clione https://github.com/PedroLopes/pptx-export-slides
 chmod+x install.sh
 ./install.sh
-```An `install.sh` script to install missing dependencies automatically.
+```
 
-------------------------------------------------------------------------
-
-
+(Or you can install dependencies manually by running ``brew intall poppler`` and ``brew install --cask libreoffice``.)
 
 ------------------------------------------------------------------------
 
