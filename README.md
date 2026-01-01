@@ -8,25 +8,29 @@ A Bash script to convert PowerPoint (`.pptx`) presentations into:
 
 ------------------------------------------------------------------------
 
-## Requirements
+## Installing
 
-The script depends on:
+The script depends on: **LibreOffice** (for PPTX → PDF), **poppler** (`pdftoppm`, for PDF → images) (and optionally if you want a ``brew install``you ned **Homebrew** for macOS).
 
--   **LibreOffice** (for PPTX → PDF)
--   **poppler** (`pdftoppm`, for PDF → images)
--   **Homebrew** (macOS)
+**Simplest: using ``brew``**
 
-An `install.sh` script is expected to install missing dependencies
-automatically.
+```bash
+brew tap pedrolopes/tools
+install pptx-export-slides
+brew install --cask libreoffice
+```
+**Automatic: using ``install.sh``
+```bash
+git clione https://github.com/PedroLopes/pptx-export-slides
+chmod+x install.sh
+./install.sh
+```An `install.sh` script to install missing dependencies automatically.
 
 ------------------------------------------------------------------------
 
-## Installing
 
-```bash
-brew tap pedrolopes/toolsew install pptx-export-slides
 
---```----------------------------------------------------------------------
+------------------------------------------------------------------------
 
 ## Basic Usage
 
