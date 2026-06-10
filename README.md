@@ -22,7 +22,7 @@ brew install --cask libreoffice
 
 **Automatic: using ``install.sh``**
 ```bash
-git clione https://github.com/PedroLopes/pptx-export-slides
+git clone https://github.com/PedroLopes/pptx-export-slides
 chmod+x install.sh
 ./install.sh
 ```
